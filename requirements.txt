@@ -1,0 +1,8 @@
+jupyter
+scikit-learn
+pandas
+matplotlib
+keras
+tensorflow-macos
+keras_preprocessing
+nltk
