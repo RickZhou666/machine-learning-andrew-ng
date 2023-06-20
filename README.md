@@ -851,6 +851,24 @@ A_23 = A(2,3)
 
 ### 5.1.3 Backpropagation Intuition
 
-## 5.2 Backpropagation in Practice
+1. Forward propagation
+
+   - <img src="./imgs/Xnip2023-06-20_11-24-23.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+2. what is backpropagation doing?
+
+   - <img src="./imgs/Xnip2023-06-20_11-26-37.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+3. Forward propagation
+
+   - difference between actual value y<sup>(i)</sup> and what was the value predicted a<sup>(4)</sup><sub>1</sub>
+   - <img src="./imgs/Xnip2023-06-20_11-36-00.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+4. [Reading](https://www.coursera.org/learn/machine-learning-course/supplement/v5Bu8/backpropagation-intuition)
+   - <img src="./imgs/Xnip2023-06-20_12-33-42.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+
+
+## 5.2 Backpropagation in Practice 
 
 ## 5.3 Application of Neural Networks
