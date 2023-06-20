@@ -871,4 +871,21 @@ A_23 = A(2,3)
 
 ## 5.2 Backpropagation in Practice 
 
+### 5.2.1 Implementation note: unrollling parameters
+
+0. Principle
+
+   - In order to use optimizing functions such as "fminunc()", we will want to "unroll" all the elements and put them into one long vector:
+
+1. Example
+
+   - pullout 1 ~ 110, then pullout 111~220, then pollout 221~231 elements
+   - <img src="./imgs/Xnip2023-06-20_13-26-01.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+   - 1~60, 61~71
+   - <img src="./imgs/Xnip2023-06-20_13-30-00.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+2. Learning algorithm
+   - <img src="./imgs/Xnip2023-06-20_14-07-11.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
 ## 5.3 Application of Neural Networks
