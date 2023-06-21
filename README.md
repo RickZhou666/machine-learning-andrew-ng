@@ -869,7 +869,11 @@ A_23 = A(2,3)
 
 
 
+<br><br><br>
+
 ## 5.2 Backpropagation in Practice 
+
+<br><br><br>
 
 ### 5.2.1 Implementation note: unrollling parameters
 
@@ -887,6 +891,8 @@ A_23 = A(2,3)
 
 2. Learning algorithm
    - <img src="./imgs/Xnip2023-06-20_14-07-11.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+<br><br><br>
 
 ### 5.2.2 Gradient Checking
 
@@ -912,5 +918,31 @@ A_23 = A(2,3)
 
 5. Important
    - Be sure to disable your gradient checking code before training your classifier.If you run numerical gradient computation on every iteration of gradient descent (or in the inner loop of `costFuction(...)`) your code will be very slow
+
+<br><br><br>
+
+### 5.2.3 Random Initialization
+
+1. Zero initialization
+
+   - when backpropagate, all nodes will update to the same value repeatedly.
+   - <img src="./imgs/Xnip2023-06-21_09-41-23.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+2. Random initialization: symmetry breaking
+
+   - instead we can randomly initialize our weights for our 𝜣 matrices using the follwing method
+   - <img src="./imgs/Xnip2023-06-21_09-44-45.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+   - hence we initialize each 𝜣<sup>(l)</sup><sub>ij</sub>, l - hidden layer l. to a randome value between [-𝜀,𝜀]. Using the above formula guarantees that we get the desired bound. the same procedure applies to all the 𝜣's
+
+   ```python
+    # If the dimensions of Theta1 is 10x11, Theta2 is 10x11 and Theta3 is 1x11.
+
+    Theta1 = rand(10,11) * (2 * INIT_EPSILON) - INIT_EPSILON;
+    Theta2 = rand(10,11) * (2 * INIT_EPSILON) - INIT_EPSILON;
+    Theta3 = rand(1,11) * (2 * INIT_EPSILON) - INIT_EPSILON;
+   ```
+
+3. quiz
+   - <img src="./imgs/Xnip2023-06-21_09-48-00.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
 
 ## 5.3 Application of Neural Networks
