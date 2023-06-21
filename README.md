@@ -888,4 +888,29 @@ A_23 = A(2,3)
 2. Learning algorithm
    - <img src="./imgs/Xnip2023-06-20_14-07-11.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
 
+### 5.2.2 Gradient Checking
+
+1. Numerical estimation of gradients
+
+   - <img src="./imgs/Xnip2023-06-21_09-03-35.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+2. Parameter vector θ
+
+   - <img src="./imgs/Xnip2023-06-21_09-11-28.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+3. Calculation
+
+   - <img src="./imgs/Xnip2023-06-21_09-14-53.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+4. Implementation Note:
+
+   - Implement backprop to compute `DVec` (unrolled D<sup>(1)</sup>, D<sup>(2)</sup>, D<sup>(3)</sup>) .
+   - Implement numerical gradient check to compute `gradApprox`
+   - Make sure they give similar values
+   - Turn off gradient checking. Using backprop code forlearing
+   - numberical estimation of gradients is very `computational expensive`
+
+5. Important
+   - Be sure to disable your gradient checking code before training your classifier.If you run numerical gradient computation on every iteration of gradient descent (or in the inner loop of `costFuction(...)`) your code will be very slow
+
 ## 5.3 Application of Neural Networks
