@@ -945,4 +945,34 @@ A_23 = A(2,3)
 3. quiz
    - <img src="./imgs/Xnip2023-06-21_09-48-00.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
 
+### 5.2.4 Putting it Together
+
+1. Training a neural network
+
+   - Number of input units = dimension of features x<sup>(i)</sup>
+   - Number of output units = number of classes
+   - Number of hidden units per layer = usually more the better (must balance with cost of computation as it increases with more hidden units)
+   - Defaults: 1 hidden layer. If you have more than 1 hidden layer, then it is recommended that you have the same number of units in every hidden layer.
+   - <img src="./imgs/Xnip2023-06-21_10-14-23.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+2. Steps of training a neural network
+
+   1. Randomly initialize weights. (normally relatively small near 0)
+   2. Implement forward propagation to get h<sub>𝜣</sub>(x<sup>(i)</sup>) for any x<sup>(i)</sup>. (get estimated value of y)
+   3. Implement code to compute cost function J(𝜣)
+   4. Implement backprop to compute partial derivatives 𝜕/(𝜕𝜣<sup>(l)</sup><sub>jk</sub>)J(𝜣)
+      - <img src="./imgs/Xnip2023-06-21_10-25-01.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+   5. use gradient checking to compare 𝜕/(𝜕𝜣<sup>(l)</sup><sub>jk</sub>)J(𝜣) computed using `backpropagation` vs. using `numerical estimate` of gradient of J(𝜣). then disable gradient checking code
+   6. use gradient descent or advanced optimization method with backpropagation to try to minimize J(𝜣) as a function of parameters 𝜣. (non-convex, might be stuck on local optimal. But normally gradient descent can get a pretty good local minimal if it's not global minimal )
+      - <img src="./imgs/Xnip2023-06-21_11-39-20.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+3. matplot
+   1. backpropagation computes the direction of gradient.
+   2. gradient descent seek a route down to the hill
+      - <img src="./imgs/Xnip2023-06-27_14-40-50.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+4. quiz
+   - <img src="./imgs/Xnip2023-06-27_14-43-06.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+
+
 ## 5.3 Application of Neural Networks
