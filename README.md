@@ -1015,6 +1015,33 @@ A_23 = A(2,3)
 
 ### 6.1.2 Evaluating a hypothesis
 
+1. Fails to generalize to new examples not in training set
+
+   - <img src="./imgs/Xnip2023-06-28_11-35-13.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+2. Dataset
+
+   - split 70/30 (make sure your data randomly shuffle before use it )
+   - <img src="./imgs/Xnip2023-06-28_13-31-54.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+   - overfitting quiz
+   - <img src="./imgs/Xnip2023-06-28_11-39-55.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+3. Training/ testing procedure for linear regression
+
+   - learn parameter θ from training data (minimizing training error J(θ))
+   - Compute test set error
+   - <img src="./imgs/Xnip2023-06-28_13-34-40.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+4. Training/ testing procesdure for logistic regression
+
+   - learn parameter θ from training data
+   - compute test set error
+   - misclassification error (0/1 misclassification error)
+   - <img src="./imgs/Xnip2023-06-28_13-37-28.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+5. [ref](https://www.coursera.org/learn/machine-learning-course/supplement/aFpD3/evaluating-a-hypothesis)
+
+
 <br><br><br>
 
 ### 6.1.3 Model selection and train/validation/test sets
