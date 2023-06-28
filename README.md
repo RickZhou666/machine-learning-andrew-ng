@@ -983,3 +983,67 @@ A_23 = A(2,3)
 ### 5.3.1 Autonomous Driving
 
 1. using backpropagation to train
+
+<br><br><br><br><br><br>
+
+# 6. Advice for Applying Machine Learning
+
+<br><br><br>
+
+## 6.1 Evaluating a learning algorithm
+
+### 6.1.1 Deciding what to try next
+
+1. Debugging a learning algorithm
+
+   - hypothesis makes unacceptably large errors in its predictions, what should u try next?
+     - Get more training examples
+     - Try smaller sets of features
+     - Try getting additional features
+     - Try adding polynomial features
+     - Try decreasing 𝜆
+     - Try increasing 𝜆
+     - <img src="./imgs/Xnip2023-06-28_11-24-20.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+2. Machine learning diagonostic
+   - diagostis: a test that you can to gain insight what is/isn't working with a learning algorithm, and gain guidance as to how best to improve its performance
+   - diagostics can take time to implement, but doing so can be a very good use of your time.
+3. quiz
+   - <img src="./imgs/Xnip2023-06-28_11-28-38.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+<br><br><br>
+
+### 6.1.2 Evaluating a hypothesis
+
+<br><br><br>
+
+### 6.1.3 Model selection and train/validation/test sets
+
+<br><br><br>
+
+## 6.2 Bias vs. Variance
+
+<br><br><br>
+
+## 6.3 Review
+
+<br><br><br><br><br><br>
+
+# 7. Machine Learning System Design
+
+<br><br><br>
+
+## 7.1 Building a Spam Classifier
+
+<br><br><br>
+
+## 7.2 Handling skewed data
+
+<br><br><br>
+
+## 7.3 Using large data sets
+
+<br><br><br>
+
+## 7.4 review
+
