@@ -1086,6 +1086,8 @@ A_23 = A(2,3)
 
 ## 6.2 Bias vs. Variance
 
+### 6.2.1 Diagnosing Bias vs. Variance
+
 1. Bias/ variance
 
    - <img src="./imgs/Xnip2023-06-28_15-12-35.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
@@ -1114,6 +1116,35 @@ A_23 = A(2,3)
 5. [ref](https://www.coursera.org/learn/machine-learning-course/supplement/81vp0/diagnosing-bias-vs-variance)
 
 <br><br><br>
+
+### 6.2.2 Regularization and Bias/Variance
+
+1. Linear regression with regularization
+
+   - <img src="./imgs/Xnip2023-06-28_16-40-01.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+2. choosing the regularization parameter 𝜆
+
+   - <img src="./imgs/Xnip2023-06-28_16-41-24.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+   - <img src="./imgs/Xnip2023-06-28_16-53-26.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+3. Bias/variance as a function of the regularization paramer 𝜆
+   - <img src="./imgs/Xnip2023-06-28_17-05-01.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+4. quiz
+
+   - <img src="./imgs/Xnip2023-06-28_16-58-53.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+5. summation
+
+   - in order to choose the model and the regularization term 𝜆, we need to:
+     1. create a list of lambdas(i.e. 𝜆 ∈ {0,0.01,0.02,0.04,0.08,0.16,0.32,0.64,1.28,2.56,5.12,10.24})
+     2. create a set of models with different degress or any other variants
+     3. iterate throught the 𝜆s and for each 𝜆 go through all the models to learn some θ
+     4. compute the cross validation error using the learned θ (computed with 𝜆) on the J<sub>CV</sub>(θ) `without` regularization or 𝜆 = 0
+     5. select the best combo that produces the lowest error on the cross validation set
+     6. using the best combo θ and 𝜆, apply it on J<sub>test</sub>(θ) to see if it has a good generalization of the problem
+
+6. [ref](https://www.coursera.org/learn/machine-learning-course/supplement/JPJJj/regularization-and-bias-variance)
 
 ## 6.3 Review
 
