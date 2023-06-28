@@ -1046,9 +1046,72 @@ A_23 = A(2,3)
 
 ### 6.1.3 Model selection and train/validation/test sets
 
+1. Overfitting example
+
+   - <img src="./imgs/Xnip2023-06-28_13-48-44.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+2. Model selection
+
+   - <img src="./imgs/Xnip2023-06-28_14-23-29.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+3. Evaluting your hypothesis
+
+   - Traning set 60%
+   - cross validation set (cv) 20%
+   - test set 20%
+   - <img src="./imgs/Xnip2023-06-28_14-25-22.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+4. Train/ validation/ test error
+
+   - <img src="./imgs/Xnip2023-06-28_14-26-11.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+5. test on cross validation set
+
+   - pick the one with lowest cross validation error
+   - <img src="./imgs/Xnip2023-06-28_14-28-31.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+6. Calculate three separate error values
+
+   1. Optimize the parameters θ using the training set for each polynomial degree
+   2. find the polynomial degress d with the least error using the cross validation set
+   3. estimate the generalization error using the test set with J<sub>test</sub>(𝜣<sup>d</sup>), (d = theta from polynomial with lower error)
+
+7. quiz
+
+   - <img src="./imgs/Xnip2023-06-28_14-32-30.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+8. [ref](https://www.coursera.org/learn/machine-learning-course/supplement/XHQqO/model-selection-and-train-validation-test-sets)
+
 <br><br><br>
 
 ## 6.2 Bias vs. Variance
+
+1. Bias/ variance
+
+   - <img src="./imgs/Xnip2023-06-28_15-12-35.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+   - Training error:
+   - Cross validation error:
+     - d = 1, underfitting, high bias
+     - d = 4, overfitting, high variance
+     - <img src="./imgs/Xnip2023-06-28_15-17-03.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+2. Diagonosing bias vs. variance
+
+   - Suppose your learning algorithm is performing less well than you were hoping. (J<sub>cv</sub>(θ) or J<sub>test</sub>(θ) is high.) is it a bias problem or a variance problem?
+   - <img src="./imgs/Xnip2023-06-28_15-25-23.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+3. quiz
+
+   - <img src="./imgs/Xnip2023-06-28_15-24-56.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+4. summation
+
+   - We need to distinguish whether bias or variance is the problem contributing to bad predictions.
+   - High bias is underfitting and high variance is overfitting. Ideally, we need to find a golden mean between these two.
+   - <img src="./imgs/Xnip2023-06-28_16-31-35.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+5. [ref](https://www.coursera.org/learn/machine-learning-course/supplement/81vp0/diagnosing-bias-vs-variance)
 
 <br><br><br>
 
