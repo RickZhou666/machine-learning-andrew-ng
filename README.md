@@ -1314,5 +1314,20 @@ A_23 = A(2,3)
 
 <br><br><br>
 
+### 7.3.1 Data for machine learning
+
+1. designing a high accuracy learning system
+
+   - <img src="./imgs/Xnip2023-06-29_16-37-17.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+2. large data rationale
+
+   - <img src="./imgs/Xnip2023-06-29_16-48-10.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+3. quiz
+   - <img src="./imgs/Xnip2023-06-29_16-50-49.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+<br><br><br>
+
 ## 7.4 review
 
