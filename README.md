@@ -1173,6 +1173,38 @@ A_23 = A(2,3)
 
 5. [ref](https://www.coursera.org/learn/machine-learning-course/supplement/79woL/learning-curves)
 
+<br><br><br>
+
+### 6.2.4 Deciding what to do next revisited
+
+1. Debugging a learning algorithm
+
+   - hypothesis makes unacceptably large errors in its predictions, what should u try next?
+     - Get more training examples. `fix high variance`
+     - Try smaller sets of features. `fix high variance`
+     - Try getting additional features. `fix high bias`
+     - Try adding polynomial features. `fix high bias`
+     - Try decreasing 𝜆. `fix high bias`
+     - Try increasing 𝜆. `fix high variance`
+
+2. Neural networks and overfitting
+
+   - A neural network with fewer parameters is **prone to underfitting**. It is also **computationally cheaper**.
+   - A large neural network with more parameters is **prone to overfitting**. It is also **computationally expensive**. In this case you can use regularization (increase λ) to address the overfitting.
+   - <img src="./imgs/Xnip2023-06-29_09-55-36.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+3. Model complexity effects
+
+   - Lower-order polynomials (low model complexity) have high bias and low variance. In this case, the model fits poorly consistently.
+   - Higher-order polynomials (high model complexity) fit the training data extremely well and the test data extremely poorly. These have low bias on the training data, but very high variance.
+   - In reality, we would want to choose a model somewhere in between, that can generalize well but also fits the data reasonably well.
+
+4. quiz
+
+   - <img src="./imgs/Xnip2023-06-29_09-56-20.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+5. [ref](https://www.coursera.org/learn/machine-learning-course/supplement/llc5g/deciding-what-to-do-next-revisited)
+
 ## 6.3 Review
 
 <br><br><br><br><br><br>
