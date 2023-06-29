@@ -1332,3 +1332,45 @@ A_23 = A(2,3)
 ## 7.4 review
 
 - <img src="./imgs/Xnip2023-06-29_17-53-17.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+<br><br><br><br><br><br>
+
+# 8. Support Vector Machines
+
+<br><br><br>
+
+## 8.1 Large margin classification
+
+<br><br><br>
+
+### 8.1.1 Optimization objective
+
+1. Alternative view of logistic regression
+
+   - <img src="./imgs/Xnip2023-06-29_18-20-02.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+   - <img src="./imgs/Xnip2023-06-29_18-19-31.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+2. support vector machine
+
+   - <img src="./imgs/Xnip2023-06-29_18-32-40.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+3. SVM hypothesis
+
+   - <img src="./imgs/Xnip2023-06-29_18-32-19.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+4. quiz
+   - <img src="./imgs/Xnip2023-06-29_18-28-25.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+<br><br><br>
+
+## 8.2 Kernels
+
+<br><br><br>
+
+## 8.3 SVMs in Practice
+
+<br><br><br>
+
+## 8.4 Review
+
+<br><br><br>
