@@ -1288,6 +1288,28 @@ A_23 = A(2,3)
 
 <br><br><br>
 
+
+### 7.2.2 Trading off precision and recall
+
+1. trading off precision and recall
+
+   - logistic regression: 0 <= h<sub>θ</sub>(x) <= 1
+   - predict 1 if h<sub>θ</sub>(x) >= 0.5
+   - predict 0 if h<sub>θ</sub>(x) >= 0.5
+   - suppose we want to predict y= 1 (cancer) only if very confident
+   - suppose we want to avoid missing too many cases of cancer(avoid false negatives)
+   - more generally: predict 1 if h<sub>θ</sub>(x) >= threshold
+   - <img src="./imgs/Xnip2023-06-29_16-17-14.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+2. F<sub>1</sub> Score (F score)
+
+   - <img src="./imgs/Xnip2023-06-29_16-27-22.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+3. quiz
+   - <img src="./imgs/Xnip2023-06-29_16-27-02.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+<br><br><br>
+
 ## 7.3 Using large data sets
 
 <br><br><br>
