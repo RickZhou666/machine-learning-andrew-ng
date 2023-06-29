@@ -1239,6 +1239,34 @@ A_23 = A(2,3)
 
 <br><br><br>
 
+### 7.1.2 Error analysis
+
+1. Recommended approach
+
+   - start with a simple algorithm that you can implement quickly. implement it and test it on your cross-validation data
+   - plot learning curves to decide if more data, more features, etc. are likely to help
+   - error analysis: manually examine the examples (in cross validation set) that your algorithm made errors on. See if you spot any systematic trend in what type of examples it is making erros on
+
+2. Error analysis
+
+   - <img src="./imgs/Xnip2023-06-29_15-00-14.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+3. The importance of numerical evaluation
+   - `It is very important to get error results as a single, numerical value. Otherwise it is difficult to assess your algorithm's performance.`
+   - should discount/ discounts/ discounted/ discouting be treated as the same word?
+     - can use 'stemming' software (e.g 'porter stemmer')
+       - universe/ universty
+     - error analysis may not be helpful for deciding if this is likely to improve performance. Only solution is to try it and see if it works
+     - need numerical evaluation (e.g. cross validation error) of algorithm's performance with and without stemming
+       - without stemming: `5% error`/ with stemming: `3% error`
+       - distinguish upper vs. lower case (Mom/mon): `3.2%`
+       - <img src="./imgs/Xnip2023-06-29_15-10-58.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+4. quiz
+   - <img src="./imgs/Xnip2023-06-29_15-04-38.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+5. [ref](https://www.coursera.org/learn/machine-learning-course/supplement/Z11RP/error-analysis)
+
+<br><br><br>
+
 ## 7.2 Handling skewed data
 
 <br><br><br>
