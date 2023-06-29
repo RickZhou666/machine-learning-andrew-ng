@@ -1271,6 +1271,23 @@ A_23 = A(2,3)
 
 <br><br><br>
 
+### 7.2.1 Error Metrics for Skewed Classes
+
+1. Cancer classification example
+
+   - <img src="./imgs/Xnip2023-06-29_15-47-51.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+2. Precision/ Recall
+
+   - y = 1 in presence of rare class that we want to detect
+   - <img src="./imgs/Xnip2023-06-29_16-01-40.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+3. quiz
+   - <img src="./imgs/Xnip2023-06-29_15-58-25.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+   - <img src="./imgs/Xnip2023-06-29_15-59-53.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+<br><br><br>
+
 ## 7.3 Using large data sets
 
 <br><br><br>
