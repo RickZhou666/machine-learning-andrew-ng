@@ -1146,6 +1146,33 @@ A_23 = A(2,3)
 
 6. [ref](https://www.coursera.org/learn/machine-learning-course/supplement/JPJJj/regularization-and-bias-variance)
 
+<br><br><br>
+
+### 6.2.3 Learning curves
+
+1. Learning curves
+
+   - if training size is small, the training error will be small as well
+   - the training error grows as training set # grows
+   - As the training set gets larger, the error for a quadratic function increases.
+   - The error value will plateau out after a certain m, or training set size.
+   - <img src="./imgs/Xnip2023-06-29_09-04-49.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+2. High bias
+
+   - increase training set size
+   - `if a learning algoritm is suffering from high bias, getting more traning data will not (by itself) help much`
+   - <img src="./imgs/Xnip2023-06-29_09-08-28.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+3. High variance
+   - `if a learning algoritm is suffering from high variance, getting more training data is likely to help`
+   - <img src="./imgs/Xnip2023-06-29_09-11-30.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+4. quiz
+
+   - <img src="./imgs/Xnip2023-06-29_09-12-20.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+5. [ref](https://www.coursera.org/learn/machine-learning-course/supplement/79woL/learning-curves)
+
 ## 6.3 Review
 
 <br><br><br><br><br><br>
