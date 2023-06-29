@@ -1217,6 +1217,28 @@ A_23 = A(2,3)
 
 <br><br><br>
 
+### 7.1.1 Prioritizing what to work on
+
+1. building a spam classifier
+
+   - <img src="./imgs/Xnip2023-06-29_11-28-50.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+   - supervised learning. x = features of email. y = spam(1) or not spam(0). Features x: choose 100 words indicative of spam/ not spam
+   - <img src="./imgs/Xnip2023-06-29_11-33-20.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+   - how to spend your time to make it have low error?
+     - collect lots of data
+       - e.g "honeypot" project
+     - Develop sophisticated featurs based on email routing information (from email header)
+     - Develop sophisticated features for message body, e.g. should "discount" and "discounts" be treated as the same word? how about "deal" and "Dealer"? Features about punctuation?
+     - Develop sophisticated algorithm to detect misspellings (e.g. m0rtagae, med1cine, w4atches)
+
+2. quiz
+   - <img src="./imgs/Xnip2023-06-29_13-18-17.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+3. [ref](https://www.coursera.org/learn/machine-learning-course/supplement/0uu7a/prioritizing-what-to-work-on)
+
+
+<br><br><br>
+
 ## 7.2 Handling skewed data
 
 <br><br><br>
