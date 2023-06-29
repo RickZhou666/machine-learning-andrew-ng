@@ -1384,6 +1384,23 @@ A_23 = A(2,3)
 
 <br><br><br>
 
+### 8.1.3 Mathematics behind large margin classification
+
+1. Vector inner product
+
+   - ||u|| - length of vector u
+   - p - `signed` length of projection of v onto u
+   - <img src="./imgs/Xnip2023-06-29_19-59-08.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>s
+
+2. SVM decision boundary
+   - SVM minimize square norm
+   - p<sup>(i)</sup> - projection of ith training example onto parameter vector θ
+   - <img src="./imgs/Xnip2023-06-29_20-08-07.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+   - maximize distance between training example to the decision boundary
+   - <img src="./imgs/Xnip2023-06-29_20-27-14.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+<br><br><br>
+
 ## 8.2 Kernels
 
 <br><br><br>
