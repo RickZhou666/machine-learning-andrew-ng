@@ -1363,6 +1363,27 @@ A_23 = A(2,3)
 
 <br><br><br>
 
+### 8.1.2 Large Margin Intuition
+
+1. Support Vector Machine
+   - <img src="./imgs/Xnip2023-06-29_19-20-11.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+2. SVM decision boundary
+
+   - <img src="./imgs/Xnip2023-06-29_19-26-10.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>s
+
+3. SVM decision bounday: linearly separable case
+   - <img src="./imgs/Xnip2023-06-29_19-44-29.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>s
+4. quiz
+
+   - <img src="./imgs/Xnip2023-06-29_19-37-10.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>s
+
+5. large margin classifier in presence of outliers
+   - if C is very large use magenta
+   - if C is not very large use black
+   - <img src="./imgs/Xnip2023-06-29_19-44-16.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>s
+
+<br><br><br>
+
 ## 8.2 Kernels
 
 <br><br><br>
