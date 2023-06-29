@@ -1331,3 +1331,4 @@ A_23 = A(2,3)
 
 ## 7.4 review
 
+- <img src="./imgs/Xnip2023-06-29_17-53-17.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
