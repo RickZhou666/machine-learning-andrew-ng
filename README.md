@@ -1641,6 +1641,23 @@ A_23 = A(2,3)
 
 <br><br><br>
 
+### 9.1.5 Choosing the number of clusters
+
+1. choosing the value of K
+
+   - Elbow method
+   - <img src="./imgs/Xnip2023-06-30_15-38-25.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+2. quiz
+
+   - <img src="./imgs/Xnip2023-06-30_15-37-45.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+3. choosing the value of K
+   - sometiems, you're running K-means to get clusters to use for some later/ downstream purpose. Evaluate K-means based on a metric for how well it performs for that later purpose.
+   - <img src="./imgs/Xnip2023-06-30_15-43-23.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+<br><br><br>
+
 
 ## 9.2 Review
 
