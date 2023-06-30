@@ -1514,4 +1514,55 @@ A_23 = A(2,3)
 
 ## 8.4 Review
 
+<br><br><br><br><br><br>
+
+# 9. Unsupervised Learning
+
 <br><br><br>
+
+## 9.1 Clustering
+
+<br><br><br>
+
+### 9.1.1 Unsupervised learning: introduction
+
+1. Supervised learning
+   - <img src="./imgs/Xnip2023-06-30_13-25-10.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+2. Unsupervised learning
+   - without label
+   - find some structure for us
+   - <img src="./imgs/Xnip2023-06-30_13-26-25.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+3. Applications of clustering
+
+   - Market segmentation
+   - Social network analysis
+   - Organize computing clusters
+   - Astronomical data analysis
+   - <img src="./imgs/Xnip2023-06-30_13-27-41.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+4. quiz
+   - <img src="./imgs/Xnip2023-06-30_13-29-03.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+<br><br><br>
+
+## 9.2 Review
+
+<br><br><br><br><br><br>
+
+# 10. Dimensionality Reduction
+
+<br><br><br>
+
+## 10.1 Motivation
+
+<br><br><br>
+
+## 10.2 Principal Component Analysis
+
+<br><br><br>
+
+## 10.3 Applying PCA
+
+<br><br><br>
+
+## 10.4 Review
