@@ -1465,8 +1465,50 @@ A_23 = A(2,3)
 
 <br><br><br>
 
-
 ## 8.3 SVMs in Practice
+
+### 8.3.1 Using an SVM
+
+1. Use SVM
+
+   - <img src="./imgs/Xnip2023-06-30_10-15-38.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+2. Kernel (`similarity`) functions
+
+   - scaling before caclcualte new feature f
+   - <img src="./imgs/Xnip2023-06-30_10-22-17.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+3. other choices of kernel
+
+   - note: not all similarity functions `similarity(x, l)` make valid kernels. (need to satisfy techinical condition called "[Mercer's Theorem](https://en.wikipedia.org/wiki/Mercer%27s_theorem)") to make sure SVM packages' optimizations run correctly, and do not diverge).
+   - many off-the-shelf kernels available
+
+     - polynomial kernel
+     - more esoteric: string kernel, chi-square kernel, histogram intersection kernel
+
+   - <img src="./imgs/Xnip2023-06-30_10-50-12.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+4. quiz
+
+   - <img src="./imgs/Xnip2023-06-30_10-48-31.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+5. multi-class classification
+
+   - many SVM packages already have built-in multi-class classification functionality
+   - <img src="./imgs/Xnip2023-06-30_10-53-38.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+6. logistic regression vs. SVMs
+   - n = # of features, m = # of training examples
+   1. if n is large (relative to m)
+      - use logistic regression, or SVM without a kernel ("linear kernel")
+   2. if n is small, m is intermediate:
+      - use SVM with Gaussian kernel (non-linear classification)
+   3. if n is small, m is large
+      - create/ add more features, then use logistic regression or SVM without a kernel
+   - neural network likely to work well for most of these settings, but may be slower to train
+   - <img src="./imgs/Xnip2023-06-30_10-59-51.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+<br><br><br>
 
 <br><br><br>
 
