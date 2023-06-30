@@ -1545,6 +1545,55 @@ A_23 = A(2,3)
 
 <br><br><br>
 
+### 9.1.2 K-means algorithm
+
+1. steps to cluster
+
+   - cluster centriods - randomly initialize two points
+   - K Means is an iterative algorithm
+
+     - (1) cluster assigment step
+     - (2) move centriod step
+
+   - initialize
+     - <img src="./imgs/Xnip2023-06-30_13-49-46.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+   - cluster
+     - <img src="./imgs/Xnip2023-06-30_13-50-01.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+   - move centriod
+     - <img src="./imgs/Xnip2023-06-30_13-50-16.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+   - cluster
+     - <img src="./imgs/Xnip2023-06-30_13-50-35.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+   - move centriod
+     - <img src="./imgs/Xnip2023-06-30_13-50-57.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+   - cluster
+     - <img src="./imgs/Xnip2023-06-30_13-51-30.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+   - move centriod
+     - <img src="./imgs/Xnip2023-06-30_13-51-44.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+2. K-means algorithm
+
+   - Input:
+     - K (# of cluster)
+     - training set {x<sup>(1)</sup>, x<sup>(2)</sup>, ..., x<sup>(m)</sup>}
+     - x<sup>(i)</sup> ∈ ℝ<sup>n</sup> (drop x<sub>(0)</sub> = 1 convention)
+     - <img src="./imgs/Xnip2023-06-30_13-55-49.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+3. K-means algorithm
+
+   - K upper case denote total # of centroid
+   - k lower case denote kth centroid
+   - c<sup>i</sup>, index (from 1 to K) of cluster centriod closest to x<sup>(i)</sup>
+   - 𝜇<sup>k</sup>, average(mean) of points assigned to cluster k
+     - if no points assign to 𝜇<sup>k</sup>, eleminate that centriod
+   - <img src="./imgs/Xnip2023-06-30_14-15-54.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+4. quiz
+
+   - <img src="./imgs/Xnip2023-06-30_14-08-05.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+5. K-means for non-separated clusters
+   - <img src="./imgs/Xnip2023-06-30_14-18-15.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
 ## 9.2 Review
 
 <br><br><br><br><br><br>
