@@ -1594,6 +1594,28 @@ A_23 = A(2,3)
 5. K-means for non-separated clusters
    - <img src="./imgs/Xnip2023-06-30_14-18-15.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
 
+<br><br><br>
+
+### 9.1.3 Optimization Objective
+
+1. K-means optimization objective
+
+   - c<sup>i</sup> = index of cluster (1,2,..., K) of which example x<sup>(i)</sup> is currently assigned
+   - 𝜇<sub>k</sub> = cluster centriod k ℝ (𝜇<sup>(k)</sup> ∈ ℝ<sup>n</sup>)
+   - 𝜇<sub>c<sup>(i)</sup></sub> = cluster centriod of cluster to which example x<sup>(i)</sup> has been assigned
+   - `distortion function`
+   - <img src="./imgs/Xnip2023-06-30_15-06-57.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+2. k-means algorithm
+
+   - <img src="./imgs/Xnip2023-06-30_15-06-22.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+3. quiz
+   - <img src="./imgs/Xnip2023-06-30_15-05-31.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+<br><br><br>
+
+
 ## 9.2 Review
 
 <br><br><br><br><br><br>
