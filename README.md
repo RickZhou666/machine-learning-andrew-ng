@@ -1405,6 +1405,36 @@ A_23 = A(2,3)
 
 <br><br><br>
 
+### 8.2.1 Kernels I
+
+1. non-linear decision boundary
+
+   - <img src="./imgs/Xnip2023-06-30_08-50-05.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+2. kernel
+
+   - <img src="./imgs/Xnip2023-06-30_08-53-46.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+3. kernel and similarity
+
+   - 𝜎 - sigma lower case
+   - l<sup>(1)</sup> - landmark 1
+   - component-wise distance
+   - <img src="./imgs/Xnip2023-06-30_09-01-01.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+4. example
+
+   - <img src="./imgs/Xnip2023-06-30_09-14-30.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+5. quiz
+
+   - <img src="./imgs/Xnip2023-06-30_09-13-58.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+6. predict 1 or 0
+   - <img src="./imgs/Xnip2023-06-30_09-19-26.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+<br><br><br>
+
 ## 8.3 SVMs in Practice
 
 <br><br><br>
