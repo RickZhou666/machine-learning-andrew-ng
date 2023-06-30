@@ -1435,6 +1435,37 @@ A_23 = A(2,3)
 
 <br><br><br>
 
+### 8.2.2 Kernel II
+
+1. choosing the landmarks
+
+   - where to get l<sup>(1)</sup>, l<sup>(2)</sup>, l<sup>(3)</sup>, ...?
+   - choose landmark as exactly as training example
+   - <img src="./imgs/Xnip2023-06-30_09-28-07.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+2. SVM with kernels
+
+   - one of landmark will be 1 as x<sup>(i)</sup> = l<sup>(i)</sup>,
+   - update and get new `f` feature set
+   - <img src="./imgs/Xnip2023-06-30_09-34-56.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+3. SVM with kernels
+
+   - update feature x to new feature f
+   - for computational reason to write in this way **θ<sup>(T)</sup>Mθ**
+   - <img src="./imgs/Xnip2023-06-30_09-45-38.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+4. SVM parameters
+
+   - choose large 𝜎<sup>2</sup> if gaussian kernel falls smoothly you tend to get hypothesis very slowly as u change the input x
+   - <img src="./imgs/Xnip2023-06-30_09-52-28.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+5. quiz
+   - <img src="./imgs/Xnip2023-06-30_09-54-29.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+<br><br><br>
+
+
 ## 8.3 SVMs in Practice
 
 <br><br><br>
