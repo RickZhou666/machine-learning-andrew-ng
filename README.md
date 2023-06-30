@@ -1615,6 +1615,32 @@ A_23 = A(2,3)
 
 <br><br><br>
 
+### 9.1.4 Random Initialization
+
+1. k-means algorithm
+
+   - <img src="./imgs/Xnip2023-06-30_15-11-15.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+2. Random initialization
+
+   - should have K < m
+   - Randomly pick K training examples
+   - set 𝜇<sub>1</sub>,...,𝜇<sub>K</sub> equal to these K example
+   - <img src="./imgs/Xnip2023-06-30_15-17-24.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+3. local optima
+
+   - <img src="./imgs/Xnip2023-06-30_15-20-52.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+4. Random initialization
+
+   - <img src="./imgs/Xnip2023-06-30_15-24-24.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+5. quiz
+   - <img src="./imgs/Xnip2023-06-30_15-23-36.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+<br><br><br>
+
 
 ## 9.2 Review
 
