@@ -1671,6 +1671,37 @@ A_23 = A(2,3)
 
 <br><br><br>
 
+### 10.1.1 Data Compression
+
+1. 2D -> 1D
+
+   - <img src="./imgs/Xnip2023-07-26_15-42-07.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+2. 3D -> 2D
+
+   - e.g. 10,000D -> 1,000D
+   - project all data into a 2-D plain
+   - <img src="./imgs/Xnip2023-07-26_15-47-55.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+3. quiz
+   - <img src="./imgs/Xnip2023-07-26_15-49-24.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+<br><br><br>
+
+### 10.1.2 Data Visulization
+
+1. Data Visualization
+
+   - <img src="./imgs/Xnip2023-07-26_18-39-36.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+   - reduce from 50-D to 2-D
+   - <img src="./imgs/Xnip2023-07-26_18-40-51.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+   - <img src="./imgs/Xnip2023-07-26_18-44-35.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+2. quiz
+   - <img src="./imgs/Xnip2023-07-26_18-44-06.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+<br><br><br>
+
 ## 10.2 Principal Component Analysis
 
 <br><br><br>
