@@ -1702,7 +1702,70 @@ A_23 = A(2,3)
 
 <br><br><br>
 
-## 10.2 Principal Component Analysis
+## 10.2 Principal Component Analysis (PCA)
+
+<br><br><br>
+
+### 10.2.1 Principal Component Analysis Problem Formulation
+
+1. PCA
+
+   - find a good line to project data 2-D to 1-D
+   - <img src="./imgs/Xnip2023-07-26_18-59-44.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+2. find k direction to project data
+
+   - <img src="./imgs/Xnip2023-07-26_19-30-27.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+3. PCA is not linear regression
+
+   - reduce vertical distance
+   - reduce magnitude
+   - <img src="./imgs/Xnip2023-07-26_19-33-27.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+   - <img src="./imgs/Xnip2023-07-26_19-34-04.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+4. quiz
+   - <img src="./imgs/Xnip2023-07-26_19-36-27.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+<br><br><br>
+
+### 10.2.2 Principal Component Analysis Algorithm
+
+1. Data Preprocessing
+   - Training set: x<sup>(1)</sup>, x<sup>(2)</sup>, ..., x<sup>(m)</sup>
+   - Preprocessing (feature scaling/ mean normalization)
+   - j stands for jth feature in ith traning data
+   - s<sub>(j)</sub> is some beta value of feature j, it could be max - min value or standard deviation of feature j
+   - <img src="./imgs/Xnip2023-07-27_09-31-44.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+2. Principal Component Analysis (PCA) algorithm
+   - <img src="./imgs/Xnip2023-07-27_09-41-02.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+3. Principal Component Analysis (PCA) algorithm
+   - Reduce data from n-dimensions to k-dimensions
+   - Compute "covariance matrix"
+   - Compute "eigenvectors" of matrix
+   - Greek alphabet sigma
+   - Summation symbols
+   - svd - Singular value decomposition
+   - (x<sup>(i)</sup>)(x<sup>(i)</sup>)<sup>T</sup> is n by n matrix
+   - take first k vector
+   - <img src="./imgs/Xnip2023-07-27_09-51-01.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+4. Principal Component Analysis (PCA) algorithm
+   - From [U, S, V] = svd(Sigma), we get
+   - Ureduce - n x k, 
+   - x - example of training set, n x 1 
+   - <img src="./imgs/Xnip2023-07-27_09-55-34.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+
+5. Principal Component Analysis (PCA) algorithm
+   - <img src="./imgs/Xnip2023-07-27_09-58-04.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+6. quiz
+   - u<sup>(j)</sup>, n x 1  => (u<sup>(j)</sup>)<sup>T</sup>, 1 x n
+   - x, n x 1 
+   - <img src="./imgs/Xnip2023-07-27_10-04-33.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
 
 <br><br><br>
 
