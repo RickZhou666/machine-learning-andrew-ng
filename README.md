@@ -1773,4 +1773,78 @@ A_23 = A(2,3)
 
 <br><br><br>
 
+### 10.3.1 Reconstruction from compressed representation
+1. Reconstruction from compressed representation
+   - z = U<sup>T</sup><sub>reduce</sub> • x
+   - X<sup>(1)</sup><sub>approx</sub> = U<sub>reduce</sub> • z<sub>(1)</sub>
+   - <img src="./imgs/Xnip2023-07-27_10-22-34.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+2. quiz
+   - <img src="./imgs/Xnip2023-07-27_10-18-03.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+   
+   
+3. summary
+   - unlabel dataset
+   - high-d to low-d
+   - low-d back to high-d
+
+<br><br><br>
+
+### 10.3.2 Choosing the number of principal components
+1. Choosing k (# of principle components)
+   - Average squared project eorr:
+   - total variation in the data:
+   - typically, choose k to be smallest value so that 99% of variance is retained
+   - <img src="./imgs/Xnip2023-07-27_11-50-04.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+
+2. Choosing k (# of principle components)
+   - S, diagonal matrix
+   - <img src="./imgs/Xnip2023-07-27_11-55-31.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+3. Choosing k (# of principle components)
+   - <img src="./imgs/Xnip2023-07-27_11-56-48.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+4. quiz
+   - <img src="./imgs/Xnip2023-07-27_11-57-27.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+5. summary
+   - you often find that PCA will be able to retain 99% of variance or some fraction of the variance even while compressing the data by a very large factor
+
+
+<br><br><br>
+
+### 10.3.3 Advice for applying PCA
+
+1. Supervised learning speedup
+   - PCA can speed up running time of a learning algo
+   - run your PCA only on `training set`
+   - <img src="./imgs/Xnip2023-07-27_13-32-42.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+2. application of PCA
+   - Compression
+      - Reduce memory/disk needed to store data
+      - speed up learning algo
+   - Visualization
+   - <img src="./imgs/Xnip2023-07-27_13-34-44.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+3. Bad use of PCA: to prevent overfitting
+   - <img src="./imgs/Xnip2023-07-27_13-37-35.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+   
+
+4. PCA is sometimes used where it shouldn't be
+   - Design of ML system:
+      - Getting training set ...........
+      - Run PCA to reduce x in dimension to get z ...........
+      - Train logistic regression on ...........
+      - Test on test set: Map x to z run hypothesis on ...........
+   - How about doing the whole thing without using PCA?
+   - Before implementing PCA, first try running whatever you want to do with the original/raw data x only if that doesn't do what you want, then implement PCA and consider using z
+   - <img src="./imgs/Xnip2023-07-27_13-44-12.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+5. quiz
+   - <img src="./imgs/Xnip2023-07-27_13-45-06.jpg" alt="imgs" width="600" height="350"><br><br><br><br><br><br>
+
+<br><br><br>
+
 ## 10.4 Review
